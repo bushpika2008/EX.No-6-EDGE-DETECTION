@@ -44,7 +44,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = cv2.imread('sv.jpeg')  # Replace with your image path
+image = cv2.imread('bushpika.jpeg')  # Replace with your image path
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 # Original Image
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
@@ -73,19 +73,26 @@ plt.axis('on')
 
 ### Input Image 
 
+<img width="366" height="497" alt="image" src="https://github.com/user-attachments/assets/25d96597-1882-460f-9c66-9d975ebbe425" />
 
 
 ### 1. Sobel Edge Detector
+
+
+<img width="386" height="492" alt="image" src="https://github.com/user-attachments/assets/a4a5efa6-899a-4850-a6ef-2a104fbc3b04" />
 
 
 
 ### 2. Laplacian Edge Detector
 
 
+<img width="351" height="487" alt="image" src="https://github.com/user-attachments/assets/32d0743a-4c2d-45ae-8f69-0fc5858881b2" />
+
 
 
 ### 3. Canny Edge Detector
 
+<img width="372" height="496" alt="image" src="https://github.com/user-attachments/assets/78f6aa05-a29d-460b-aea3-e7bf31ddd24e" />
 
 
 
