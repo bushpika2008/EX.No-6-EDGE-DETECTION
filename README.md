@@ -1,0 +1,1 @@
+# EX.No-6-EDGE-DETECTION
